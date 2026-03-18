@@ -20,4 +20,4 @@ jobs:
       - name: Créer credentials.json depuis secret
         run: echo '${{ secrets.GOOGLE_CREDENTIALS }}' > credentials.json
       - name: Lancer le script
-        run: python main.py
+        run: python main.py 
